@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-image: url('images/cities section.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .search-bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: auto;
+            margin-bottom: 80px;
+        }
+        .search-bar input {
+            padding: 10px;
+            width: 80%;
+            max-width: 300px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .search-bar button {
+            padding: 10px;
+            width: 80%;
+            max-width: 300px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 0;
+        }
+        .footer img {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <h1>Start exploring your favourite cities</h1>
+            <input type="text" placeholder="Search">
+            <button>Browse all cities</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-icon">
+            <img src="path_to_your_image/home_icon.png" alt="Home">
+        </div>
+        <div class="footer-icon">
+            <img src="path_to_your_image/profile_icon.png" alt="Profile">
+        </div>
+    </div>
+</body>
+</html>
